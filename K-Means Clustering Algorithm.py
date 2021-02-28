@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r"D:\OneDrive\Work\Projects\K-Means Clustering Algorithm\iris.csv")
+df = pd.read_csv(r"path\to\iris.csv")
 
 feature = df.iloc[:, [0,1,2,3]].values
 
